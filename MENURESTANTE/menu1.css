@@ -1,0 +1,9 @@
+.img{
+    width: 100%;
+    height: 5%;
+
+
+background-image: url(logo1.png);
+position: absolute;
+min-height: 90vh;
+}

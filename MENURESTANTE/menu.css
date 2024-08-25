@@ -1,0 +1,108 @@
+@import url('');
+
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.img{
+    
+}
+    
+    
+    /* box-shadow: é a borda do menu que está em rosa.*/
+    /* overflow: com hidden serve para desapacer a escrita ex: home, cerveja quando o menu fechar.*/
+    /*transition: é a velocidade da abertura do menu quando abre e fecha.*/
+
+nav.menu-lateral{
+    width: 160px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1%;
+    box-shadow: 10px 0 0 goldenrod;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden; 
+    transition: 1s;
+
+}
+/* serve para abrir o menu quando tocar nele*/
+desativei-nav.menu-lateral:hover {
+    width: 600px;
+
+    
+/* serve para abir o menu quando clicar e essa função está no js.*/    
+}
+nav.menu-lateral.expandir{
+    width: 650px;
+}
+
+
+.btn-expandir{
+    width: 30%;
+    padding-left:42px;
+
+}
+
+.btn-expandir > i{
+    color:#fff;
+    font-size: 60px;
+    cursor:pointer;
+
+
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: 1s;
+}
+
+ul li.ativo{
+    background: 
+}
+
+ul li.item-menu:hover {
+    background: 	#D8BFD8;
+
+
+}
+
+ul li.item-menu a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 50px;
+     
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 60px;
+}
+
+ul li.item-menu a .icon > i { 
+    font-size: 60px;
+    margin-left: 3px;
+    
+ 
+ }
+
+ ul li.ativo{
+    background:  goldenrod;
+}
+
+ #icon_beer{
+    width: 80px;
+    height: 80px;
+ }

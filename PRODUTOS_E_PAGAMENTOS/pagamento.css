@@ -1,0 +1,208 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Ocultar a barra de rolagem horizontal */
+body {
+  overflow-x: hidden;
+}
+
+/* Ocultar a barra de rolagem vertical */
+body {
+  overflow-y: hidden;
+}
+
+.centralizar {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+}
+
+.supplier-bar, .delivery-bar {
+  padding: 10px 20px;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 15px;
+  border: solid 7px black;
+     
+}
+
+
+
+#debit-button, #credit-button, #accept-button, #cancel-button {
+  padding: 10px 20px;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 15px;
+
+}
+
+
+.message-box, .messagem-box{
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 30px;
+  border-radius: 50px;
+  border: solid goldenrod;
+  
+  
+}
+
+#credit-button:hover {
+  color: #ff0077;
+  text-decoration: none;
+  background-color: goldenrod;
+  
+      
+  
+
+
+}
+
+#debit-button:hover {
+  color: #ff0077;
+  text-decoration: none;
+  background-color: goldenrod;
+}
+
+#debit-button::before{
+
+ background-color: rgb(20, 196, 0);
+}
+
+
+
+
+
+.bodymenu {
+  
+
+  color: black;
+  height: 100vh;
+  max-width: 30rem;
+  min-height: 100vh;
+  background-image: url
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  
+  .menu {
+    margin-left: 62px;
+    margin-top: 62px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  
+  
+  }
+  .menu .menu-faketrigger{
+    position: absolute;
+    z-index:1000;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .menu .menu-lines{
+    position: absolute;
+    z-index:999;
+    width: 350x;
+    height: 35px;
+    
+    
+  }
+  
+  .menu .menu-lines span{
+    display: block;
+    width: 42px;
+    height: 7px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    transition: 1s;
+    
+  
+    
+  }
+  
+  .menu .menu-faketrigger:checked ~ .menu-lines span {
+    background-color: blueviolet;
+    
+  
+    
+  }
+  
+  .menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(1){
+    transform-origin: 20% 60%;
+    transform:rotate(90deg);
+
+  }
+  
+  .menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(2){
+    transform-origin: 60% 40%;
+    transform:rotate(90deg);
+  }
+  
+  .menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(3){
+    transform-origin: 100% 50%;
+    transform:rotate(90deg);
+  }
+  
+  .menu ul {
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 578px;
+    height: calc(100vh - 100px);
+    padding-top: 95px;
+    background-color: black;
+    margin-left: -800px;
+    transition: 1s;
+    box-shadow: 10px 0 0 gold;
+    list-style-type: none;
+    position: fixed;
+  
+  
+  
+  }
+  
+  .menu .menu-faketrigger:checked ~ ul{
+    margin: 0;
+   
+  }
+  
+  .menu ul li {
+    padding: 35px 30px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+    transition: all ease 2s;
+  }
+  
+  .menu ul li a:hover {
+      color: yellow;
+    }
+
+
+ .whatsapp-button {
+  padding: 10px 20px;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 15px;
+  }
+  
+  
+  

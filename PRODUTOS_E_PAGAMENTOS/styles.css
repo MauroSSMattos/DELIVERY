@@ -1,0 +1,228 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Ocultar a barra de rolagem horizontal */
+body {
+  overflow-x: hidden;
+}
+
+/* Ocultar a barra de rolagem vertical */
+body {
+  overflow-y: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centraliza horizontalmente o conteúdo dentro do contêiner */
+  
+  }
+
+.products-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+ .carousel-inner {  
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    transition: transform 0.5s ease;  
+    
+      
+    
+}
+
+.product {
+  flex: 0 0 100%;
+  padding: 0 50px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.product img {
+  max-width: 40%;
+  border-radius: 100px;
+  border: solid goldenrod;
+  text-decoration: underline; ver o que faz;
+  justify-content: center;
+  
+}
+
+.cart {
+  margin-top: 20px;
+  font-size: 20PX;
+  margin-top: 70px; 
+  
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  font-size: 30PX;
+  border: solid goldenrod;
+  border-radius: 30px;
+}
+
+.cart-items li {
+  margin-bottom: 10px;
+}
+
+.status-message,
+.picked-up-message,
+.delivered-message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+   
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 40px;
+  outline: none;
+  background: black;
+  color: #fff;
+}
+
+.prev {
+  left: 0;
+  border: solid goldenrod;
+  font-size: 30px;
+  border-radius: 15px;  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.next {
+  right: 0;
+  border: solid goldenrod;
+  font-size: 30px;
+  border-radius: 15px;  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.add-to-cart {
+  font-size: 30px;
+  border: solid goldenrod;
+  left: 0px;
+  border-radius: 15px;
+  outline: none;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  padding: 0px 50px;
+  text-align: center;
+  justify-content: center;
+  
+
+}
+
+.remove-from-cart {
+  font-size: 30px;
+  border: solid goldenrod;
+  left: 0px;
+  border-radius: 15px;
+  outline: none;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  padding: 0px 50px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+h2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+
+}
+
+h3{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size:40px ;
+}
+
+ul{
+
+  text-align: center;
+  justify-content: center;
+}
+
+.total{
+  font-size: 40px;
+}
+
+p{
+  font-size: 40px;
+
+}
+
+h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size:40px ;
+  border: solid;
+  border-radius: 15px;  
+}
+
+.borda{
+  border: solid black;
+  margin-top: 20px;
+  
+}
+
+payment-button {  
+    
+    
+}
+
+.payment-button {
+  
+  font-size: 400px;
+  border: 10px solid black;
+  border-radius: 30px; 
+  cursor: pointer;
+  margin-top: 20px; 
+  font-weight: bold; 
+  font-size: 30px; /* Tamanho da fonte do botão */
+  padding: 10px 20px;
+}
+
+
+button:hover {
+  background-color:  goldenrod;
+  text-align: center;
+  .text-decoration:line-through; - sublinha no meio da palavra com uma linha
+
+  
+}
+
+

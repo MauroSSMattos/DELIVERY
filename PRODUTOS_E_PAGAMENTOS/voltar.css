@@ -1,0 +1,36 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color:#333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start; /* Alinhamento à direita */
+}
+
+/* Estilos para os links do menu */
+header .a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px; /* Espaçamento entre os links */
+}
+
+header .a:hover {
+    text-decoration: underline; /* Efeito hover */
+    
+}
+.voltar{
+    color:white;
+    font-size: 30px;
+    padding: 30px;
+  
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
